@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule - Norasnow</title>
+    <link rel="stylesheet" href="Css_files/Schedule.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .schedule {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 20px;
+            padding: 20px;
+            background-color: #fff;
+            margin-top: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .day {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .day h3 {
+            margin-bottom: 10px;
+        }
+        .event {
+            margin-bottom: 10px;
+        }
+        .event-time {
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Streaming Schedule!</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about me.html">About</a>
+        <a href="Videos.html">Videos</a>
+        <a href="Contacts.HTML">Contact</a>
+        <a href="Schedule.html">Schedule</a>
+    </nav>
+    <div class="container">
+        <div class="schedule">
+            <div class="day">
+                <h3>Monday</h3>
+                <div class="event">
+                    <p class="event-time">2:00 PM - 4:30 PM</p>
+                    <p>Afternoon Stream</p>
+                </div>
+                <div class="event">
+                    <p class="event-time">10:00 PM Onwards</p>
+                    <p>Late night Gaming!</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Tuesday</h3>
+                <div class="event">
+                    <p class="event-time">10:00 PM</p>
+                    <p>Late night Gaming!</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Wednesday</h3>
+                <div class="event">
+                    <p class="event-time">10:00 PM</p>
+                    <p>Art Stream</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Thursday</h3>
+                <div class="event">
+                    <p class="event-time">4:00 PM - 6:00 PM</p>
+                    <p>Collab Stream</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Friday</h3>
+                <div class="event">
+                    <p class="event-time">9:00 AM - 11:00 AM</p>
+                    <p>Morning Yoga</p>
+                </div>
+                <div class="event">
+                    <p class="event-time">8:00 PM - 11:00 PM</p>
+                    <p>Friday Night Game</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Saturday</h3>
+                <div class="event">
+                    <p class="event-time">2:00 PM - 5:00 PM</p>
+                    <p>Community Play</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Sunday</h3>
+                <div class="event">
+                    <p class="event-time">10:00 AM - 12:00 PM</p>
+                    <p>Weekly Recap</p>
+                </div>
+                <div class="event">
+                    <p class="event-time">6:00 PM - 8:00 PM</p>
+                    <p>Evening Relax</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 VTuber Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
