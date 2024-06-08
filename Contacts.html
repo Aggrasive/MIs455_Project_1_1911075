@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - VTuber Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+            background-color: #fff;
+            margin-top: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info, .contact-form {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-info h3, .contact-form h3 {
+            margin-bottom: 10px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>For Business inquires contact me here! </h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about me.html">About</a>
+        <a href="Videos.html">Videos</a>
+        <a href="Contacts.HTML">Contact</a>
+        <a href="Schedule.html">Schedule</a>
+    </nav>
+    <div class="container">
+        <div class="contact">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Email:</strong> vtuber@example.com</p>
+                <p><strong>Twitter:</strong> <a href="https://twitter.com/yourprofile" target="_blank">@yourprofile</a></p>
+                <p><strong>YouTube:</strong> <a href="https://www.youtube.com/yourchannel" target="_blank">Your Channel</a></p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/yourprofile" target="_blank">@yourprofile</a></p>
+                <p><strong>Twitch:</strong> <a href="https://www.twitch.tv/yourchannel" target="_blank">Your Channel</a></p>
+            </div>
+            <div class="contact-form">
+                <h3>Contact Form</h3>
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 NoraSnow. All rights reserved by Swapnil Chowdhury.</p>
+    </footer>
+</body>
+</html>
